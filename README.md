@@ -24,10 +24,10 @@ Artisan Deployer
 
 ### Documentation
 
-* [Installation](doc/installation.md)
-* [Getting Started](doc/getting-started.md)
-* [Configuration](doc/configuration.md)
-* [Default Deployer](doc/default-deployer.md)
+* [Installation](docs/installation.md)
+* [Getting Started](docs/getting-started.md)
+* [Configuration](docs/configuration.md)
+* [Default Deployer](docs/default-deployer.md)
 
 > **NOTE**
 > Artisan Deployer does not "provision" servers (like installing a web server and the
