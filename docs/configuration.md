@@ -2,7 +2,7 @@ Configuration
 =============
 
 <p align="center">
-![deployment](https://raw.githubusercontent.com/bencagri/artisan-deployer/master/docs/images/prodware-release-management.jpg)
+<img src="https://raw.githubusercontent.com/bencagri/artisan-deployer/master/docs/images/prodware-release-management.jpg">
 </p>
 
 Deployment Strategies
