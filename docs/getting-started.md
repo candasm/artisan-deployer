@@ -9,7 +9,7 @@ commands called ``deploy`` and ``rollback``. The ``deploy`` command publishes
 your local Laravel application into one or more remote servers. The ``rollback``
 command reverts the remote Laravel application to the previous version.
 
-EasyDeploy can deploy to any number of servers, even when they are of different
+Artisan Deployer can deploy to any number of servers, even when they are of different
 type (e.g. two web servers, one database server and one worker server). It also
 supports multiple stages, so you can tailor the deployed application to
 different needs (production servers, staging server, etc.)
@@ -48,8 +48,8 @@ to the deploy/rollback commands to run them in verbose mode:
 
 ```bash
 # '-v' shows the full details of the deploy/roll back processes
-$ ./bin/console deploy -v
-$ ./bin/console rollback -v
+$ ./artiasn deploy -v
+$ ./artisan rollback -v
 ```
 
 
@@ -60,7 +60,7 @@ Testing a new deployment tool is always scary. Will it work as promised? Will it
 fail and wipe out my servers? For that reason, EasyDeploy commands include a
 `--dry-run` option to **show the commands executed by the deployment/rollback,
 without actually executing them**. Always include this option when using
-EasyDeploy for the first time:
+Artisan Deployer for the first time:
 
 ```bash
 # show the commands to deploy into "prod", but don't execute them
