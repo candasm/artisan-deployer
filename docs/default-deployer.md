@@ -80,12 +80,12 @@ Apache web server configuration:
 <VirtualHost *:80>
     # ...
 
--   DocumentRoot    /var/www/vhosts/example.com/web
-+   DocumentRoot    /var/www/vhosts/example.com/current/web
+-   DocumentRoot    /var/www/vhosts/example.com/public
++   DocumentRoot    /var/www/vhosts/example.com/current/public
     DirectoryIndex  app.php
 
 -   <Directory /var/www/vhosts/example.com/web>
-+   <Directory /var/www/vhosts/example.com/current/web>
++   <Directory /var/www/vhosts/example.com/current/public>
         RewriteEngine On
         RewriteCond   %{REQUEST_FILENAME} !-f
         RewriteRule   ^(.*)$ app.php [QSA,L]
