@@ -2,7 +2,7 @@ Artisan Deployer
 ================
 
 <p align="center">
-![deployment](https://raw.githubusercontent.com/bencagri/artisan-deployer/master/docs/images/artisan-deployer.gif)
+<img src="https://raw.githubusercontent.com/bencagri/artisan-deployer/master/docs/images/artisan-deployer.gif">
 </p>
 
 **Artisan Deployer is the easiest way to deploy your Laravel applications.**
