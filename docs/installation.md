@@ -10,7 +10,7 @@ application that you want to deploy.
 
 ```console
 $ cd your-laravel-project/
-$ composer require bencagri/artisan-deployer
+$ composer require bencagri/artisan-deployer --dev
 ```
 **Step 2.** Enable the providers:
 
