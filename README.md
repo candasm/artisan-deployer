@@ -1,6 +1,10 @@
 Artisan Deployer
 ================
 
+<p align="center">
+![deployment](https://raw.githubusercontent.com/bencagri/artisan-deployer/master/docs/images/artisan-deployer.gif)
+</p>
+
 **Artisan Deployer is the easiest way to deploy your Laravel applications.**
 
 ### Features
@@ -17,6 +21,13 @@ Artisan Deployer
   * Your local machine: PHP 7.1 or higher and a SSH client.
   * Your remote servers: they allow SSH connections from the local machine.
   * Your application: it can use any version of Laravel 5.x
+
+### Documentation
+
+* [Installation](doc/installation.md)
+* [Getting Started](doc/getting-started.md)
+* [Configuration](doc/configuration.md)
+* [Default Deployer](doc/default-deployer.md)
 
 > **NOTE**
 > Artisan Deployer does not "provision" servers (like installing a web server and the
